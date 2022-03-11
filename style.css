@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2? famille=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+	background-color: #008B8B;
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	text-align: left;
+	background-attachment: fixed;
+	background-image: url(https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+}
+.data {	
+
+	font-family: 'Lora', serif;
+	font-size: 30px;
+
+}
+
+h1 {
+  color: #008080;
+  font-family: 'Old Standard TT', serif;
+  font-size: 40px;
+}
+
+h2 {
+   color: #008080;
+   font-family: 'Old Standard TT', serif;
+   font-size: 40px;
+}
+
+h3 {
+  color: #008080;
+  font-family: 'Old Standard TT', serif;
+  font-size: 20px;
+}
+
+ol{
+
+    margin: 0;
+    padding: 0;
+
+}
+.card-white {
+	background-color: rgba(255,255,255,0.6);
+	text-align: center;
+	padding: 24px;
+	width: 60%;
+	margin: 16px auto;
+	border-radius:10px;
+	box-shadow: 0px 2px 0px 3px #008080;
+}
+
+.card-white img {
+	width: 167px;
+}
+
+}
+
+.panther {
+
+}
+
+#avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px #008080;
+	object-fit: cover;
+}
+
+#profile{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 1px #008080;
+	object-fit: cover;
+
+}
+	a{
+		text-decoration: none;
+	}
+
+.btn-blue {
+	color : white;
+	background-color: #008080;
+	padding: 8px 16px; 
+	border-radius: 6px;
+	font-weight: bolder;
+	display : block;
+	width: 70%;
+	border: 1px #008080;
+	margin:0 auto;
+
+}
+
+.btn-blue:hover{
+	background-color: white;
+	color : black;
+	transition: 1s;
+}
+
+.list-inline{
+
+	padding:0;
+	list-style: none;
+ }
+
+.list-inline li {
+
+ 	display: inline;
+ 	margin:0 16px;
+ 	font-size:40px;
+ }
+
+.fa-brands {
+color: rgba(0,0,0,4);
+
+}
+
+.fa-brands: hover {
+color: black;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	height: 20%;
+
+ 
+}
+
+@media (max-width: 575,98)
+/*commentaire */
